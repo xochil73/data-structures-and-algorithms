@@ -109,6 +109,8 @@ const splitFoods = (recipe) => {
   return result;
  }
 
+ //worked with Evy and Erin T on these
+
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 5
 
