@@ -41,7 +41,7 @@ Write a function named salesData that uses forEach to iterate over the hourlySal
 ------------------------------------------------------------------------------------------------ */
 
 const salesData = (hours, data) => {
- 
+  
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -62,7 +62,8 @@ const errands = [
 ]
 
 const howManyTreats = (arr) => {
-  // Solution code here...
+  return arr[2].items[1].quantity;
+  
 }
 
 /* ------------------------------------------------------------------------------------------------
@@ -90,9 +91,15 @@ For example, the following input returns a product of 720: [[1,2], [3,4], [5,6]]
 ------------------------------------------------------------------------------------------------ */
 
 const calculateProduct = (numbers) => {
-  // Solution code here...
+  let answer = 1;
+  for(var i in numbers){
+    for(var j in numbers[i]){
+      answer*=numbers[i][j];
+    };
+    return answer;
+  };
+  
 }
-
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
 Write a function named averageDailyTemperature that accepts a two-dimensional array representing average daily temperatures grouped week-by-week.
@@ -108,7 +115,13 @@ const weeklyTemperatures = [
 ];
 
 const averageDailyTemperature = (weather) => {
-  // Solution code here...
+  let answer = 0;
+  for (var i in weather){
+    let dailyTemp = 0;
+    for(var j in weather[i]) dailyTemp += weather[i][j];
+      answer += dailyTemp/weather[i].length;
+  }
+  return answer/weather.length;
 }
 
 /* ------------------------------------------------------------------------------------------------
@@ -178,7 +191,7 @@ describe('Testing challenge 2', () => {
 
 
 describe('Testing challenge 3', () => {
-  test.skip('It should return the number 24', () => {
+  test('It should return the number 24', () => {
     expect(howManyTreats(errands)).toStrictEqual(24);
   });
 });
@@ -203,20 +216,20 @@ describe('Testing challenge 4', () => {
 });
 
 describe('Testing challenge 5', () => {
-  test.skip('It should multiply all the numbers together', () => {
+  test('It should multiply all the numbers together', () => {
     expect(calculateProduct([[1,2], [3,4], [5,6]])).toStrictEqual(720);
   });
 
-  test.skip('It should return zero if there are any zeroes in the data', () => {
+  test('It should return zero if there are any zeroes in the data', () => {
     expect(calculateProduct([[2, 3, 4, 6, 0], [4, 3, 7], [2, 4, 6]])).toStrictEqual(0);
   });
-  test.skip('It should work even if some of the arrays contain no numbers', () => {
+  test('It should work even if some of the arrays contain no numbers', () => {
     expect(calculateProduct([[1,2], [], [3,4,5]])).toStrictEqual(120);
   });
 });
 
 describe('Testing challenge 6', () => {
-  test.skip('It should calculate and return the average temperature of the data set', () => {
+  test('It should calculate and return the average temperature of the data set', () => {
     expect(averageDailyTemperature(weeklyTemperatures)).toStrictEqual(60.25);
   });
 });
