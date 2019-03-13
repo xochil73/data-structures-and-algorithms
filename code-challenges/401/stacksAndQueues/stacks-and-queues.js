@@ -1,5 +1,7 @@
 'use strict'
 
+
+const stacksAndQueues = {};
 class Node {
     constructor(value) {
         this.value = value;
@@ -7,19 +9,52 @@ class Node {
     }
 }
 
+stacksAndQueues.Node = Node;
 
+class Stack {
+    constructor() {
+        this.top = [];
+    }
 
-class Stack (value) {
-    this.top = null;
-    this.next = value;
-}
     push(value) {
+        return this.top.push(new Node(value));
+    }
 
-        return
+    pop() {
+        const pop = this.top;
+        this.top = this.top.next;
+        return pop;
+
+    }
+
+    peek() {
+
+        return this.top;
+    }
 }
-    pop(value) {
-        return
+
+stacksAndQueues.Stack = Stack;
+
+class Queue {
+    constructor() {
+        this.front = null;
+        this.rear = null;
+    }
+
+    enqueue(value) {
+        new Node = this.rear;
+    }
+
+    dequeue() {
+        const frontNode = this.front;
+        return frontNode;
+
+    }
+
+    peek() {
+
+    }
 }
-    peek(value) {
-        return
-}
+stacksAndQueues.Queue = Queue;
+
+module.exports = stacksAndQueues;
