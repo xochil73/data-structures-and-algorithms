@@ -5,7 +5,7 @@
 
 
 ### Links and Resources
-* [repo](https://github.com/xochil73/data-structures-and-algorithms/blob/master/code-challenges/401/queueWithStacks/README.md)
+* [repo](https://github.com/xochil73/data-structures-and-algorithms/blob/master/code-challenges/401/fizzbuzz_tree/README.md)
 
 ### Challenge
 * Take in a tree as an argument and with vanilla javaScript, determine whether or not the value of each node is divisible by 3, 5 or both, and change the value of each of the nodes:
