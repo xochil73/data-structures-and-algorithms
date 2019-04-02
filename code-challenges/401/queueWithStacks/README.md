@@ -5,7 +5,7 @@
 
 
 ### Links and Resources
-* [repo](https://github.com/xochil73/data-structures-and-algorithms/tree/master/code-challenges/401/stacksAndQueues)
+* [repo](https://github.com/xochil73/data-structures-and-algorithms/blob/master/code-challenges/401/queueWithStacks/README.md)
 
 ### Challenge
 * Create a pseudo-queue class that creates a queue using only two stacks and the FIFO method.
