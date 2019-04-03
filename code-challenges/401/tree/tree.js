@@ -92,6 +92,7 @@ class BinarySearchTree {
 
 
     find(valueToFind) {
+        console.log(valueToFind, 'here is a value');
         if (!valueToFind) {
             throw new Error('Cannot find a null value');
         }
@@ -99,27 +100,29 @@ class BinarySearchTree {
             throw new Error('Value to find does not exist');
         }
         if (valueToFind.value === this.root) {
-            return;
+            return true;
         }
         let found = false;
         let current = this.root;
-        while (current) {
-            if (valueToFind.value > current.value) {
+        while (!found) {
+            console.log(valueToFind, 'here I am!');
+            if (valueToFind > current.value) {
                 current = current.right;
-            } else {
-                if (valueToFind < current.value) {
+                console.log(current, 'this is the current value');
+            }if (valueToFind < current.value) {
                     current = current.left;
-                } else {
-                    found = true;
-                    console.log(found, 'i am found');
+                } else if (valueToFind === current.value) {
+                found = true;
+                console.log(found, 'I am found');
 
+
+                 }else  {
+                     return 'sorry, no value matched your number';
+                    }
                 }
-                break;
-
-            }
         }
     }
-}
+
 
 const BST = new BinarySearchTree();
 BST.insert(new Node(10));
@@ -128,4 +131,4 @@ BST.insert(new Node(5));
 BST.insert(new Node(7));
 console.log(BST);
 
-BST.find(5);
+BST.find(15);
