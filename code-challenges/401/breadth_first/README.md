@@ -5,7 +5,7 @@
 
 
 ### Links and Resources
-* [repo](https://github.com/xochil73/data-structures-and-algorithms/tree/master/code-challenges/401/stacksAndQueues)
+* [repo](https://github.com/xochil73/data-structures-and-algorithms/tree/master/code-challenges/401/breadth_first)
 
 ### To test server
 * npm run test
