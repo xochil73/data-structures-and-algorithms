@@ -4,8 +4,13 @@
   "description": "search a binary tree breadth first",
   "main": "breadth_first.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
   },
   "author": "Xochil Squaglia",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.8.0"
+  }
 }
