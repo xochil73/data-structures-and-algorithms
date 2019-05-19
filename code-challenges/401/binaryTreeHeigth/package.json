@@ -1,0 +1,14 @@
+{
+  "name": "binarytreeheigth",
+  "version": "1.0.0",
+  "description": "find binary tree heigth",
+  "main": "binaryTreeHeight.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Xochil Squaglia",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.8.0"
+  }
+}
