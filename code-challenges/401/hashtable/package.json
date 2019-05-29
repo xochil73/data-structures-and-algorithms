@@ -1,0 +1,14 @@
+{
+  "name": "hashtable",
+  "version": "1.0.0",
+  "description": "hashtable",
+  "main": "hashtable.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "xochil sqauglia",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.8.0"
+  }
+}
