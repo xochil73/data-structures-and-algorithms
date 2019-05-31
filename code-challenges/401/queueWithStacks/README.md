@@ -10,16 +10,13 @@
 ### Challenge
 * Create a pseudo-queue class that creates a queue using only two stacks and the FIFO method.
 
-### Approach
 
 
 ### Solution
-![whiteboard]
+![whiteboard](assets/stacks_and_queues.jpg)
 
-
-### Tests
 
 
 ### Big O
-* Time
-* Space
+* Time 0(n)
+* Space 0(H)
