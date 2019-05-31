@@ -14,15 +14,13 @@
   -If the value is divisible by 3 and 5, replace the value with “FizzBuzz”
 
 ### Approach
-
+* Use recursion to traverse the tree root, left, right.  If the value is divisible by 3, return fizz, if it's divisible by 5, return buzz and if it's divisible by 3 & 5, return fizzbuzz 
 
 ### Solution
-![whiteboard]
+![whiteboard](assets/fizz_buzz.jpg)
 
-
-### Tests
 
 
 ### Big O
-* Time
-* Space
+* 0(n)
+* 0(H)
