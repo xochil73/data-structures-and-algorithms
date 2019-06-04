@@ -21,4 +21,4 @@ Create a function that takes in two hash maps as it's parameter.  Create an arra
 
 ### Solution
 
-[!whiteboard]('assets/leftJoinPic.jpg)
+![whiteboard](assets/leftJoinPic.jpg)
