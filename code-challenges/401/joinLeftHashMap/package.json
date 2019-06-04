@@ -1,0 +1,14 @@
+{
+  "name": "leftjoinhashmap",
+  "version": "1.0.0",
+  "description": "joining two hashmaps",
+  "main": "leftJoinHashMap.js",
+  "scripts": {
+    "test": "run test"
+  },
+  "author": "xochil squaglia",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.8.0"
+  }
+}
