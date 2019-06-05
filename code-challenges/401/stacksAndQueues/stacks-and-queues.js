@@ -13,15 +13,17 @@ stacksAndQueues.Node = Node;
 
 class Stack {
     constructor() {
-        this.top = [];
+        this.top = null;
     }
 
     push(value) {
-        return this.top.push(new Node(value));
+        let node = new Node(value);
+        node.next = this.top;
+        this.top = node;
     }
 
     pop() {
-        const pop = this.top;
+        const pop = this.top.value;
         this.top = this.top.next;
         return pop;
 
@@ -29,7 +31,7 @@ class Stack {
 
     peek() {
 
-        return this.top;
+        return this.top.value;
     }
 }
 
@@ -42,17 +44,27 @@ class Queue {
     }
 
     enqueue(value) {
-        new Node = this.rear;
+        // new Node = this.rear;
+        let node = new Node(value);
+        if(this.front) {
+            this.rear.next = node;
+            this.rear = node;
+        }
+        else {
+            this.front = node;
+            this.rear = node;
+        }
     }
 
     dequeue() {
-        const frontNode = this.front;
+        const frontNode = this.front.value;
+        this.front = this.front.next;
         return frontNode;
 
     }
 
     peek() {
-
+        return this.front.value;
     }
 }
 stacksAndQueues.Queue = Queue;
