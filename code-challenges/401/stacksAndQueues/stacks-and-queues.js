@@ -57,13 +57,22 @@ class Queue {
     }
 
     dequeue() {
-        const frontNode = this.front.value;
+        if(!this.front) {
+            return null;
+        }
+        let frontNode = this.front.value;
         this.front = this.front.next;
+        if(!this.front) {
+            this.rear = null;
+        }
         return frontNode;
 
     }
 
     peek() {
+        if(!this.front) {
+            return null;
+        }
         return this.front.value;
     }
 }
