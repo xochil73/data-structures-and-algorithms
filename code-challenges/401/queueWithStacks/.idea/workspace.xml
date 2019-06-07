@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/../hashtable/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hashtable/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../llMerge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../llMerge/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queue-with-stacks.js" beforeDir="false" afterPath="$PROJECT_DIR$/queue-with-stacks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tree/__tests__/tree.test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tree/tree.js" beforeDir="false" />
     </list>
@@ -30,11 +29,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/queue-with-stacks.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
               <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="467">
+                <caret line="21" selection-start-line="18" selection-end-line="21" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -68,10 +79,10 @@
         <option value="$PROJECT_DIR$/.eslintrc.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.travis.yml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/node.js" />
         <option value="$PROJECT_DIR$/queue-with-stacks.js" />
         <option value="$PROJECT_DIR$/stack.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -85,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="781" />
     <option name="y" value="68" />
     <option name="width" value="1052" />
@@ -149,16 +160,15 @@
       <workItem from="1554226589080" duration="83000" />
       <workItem from="1554578161854" duration="599000" />
       <workItem from="1554753282937" duration="7444000" />
-      <workItem from="1559270352028" duration="680000" />
+      <workItem from="1559270352028" duration="1432000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10154000" />
+    <option name="totallyTimeSpent" value="10906000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="781" y="68" width="1052" height="1000" extended-state="0" />
-    <editor active="true" />
+    <frame x="781" y="68" width="1052" height="1000" extended-state="1" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1797862" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -197,16 +207,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="154">
-            <caret line="7" column="125" selection-start-line="7" selection-start-column="125" selection-end-line="7" selection-end-column="125" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -232,6 +232,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="467">
+            <caret line="21" selection-start-line="18" selection-end-line="21" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
